@@ -1,0 +1,130 @@
+
+*{
+    margin:0;
+    padding:0;
+}
+h1{
+    text-align: center;
+    font-size: 2.2em;
+    margin-bottom: 15px;
+
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logo img {
+    width: 140px; /* Establece el ancho deseado para la imagen */
+  }
+  
+body {
+    background-image: url(../images/fecha\ \(2\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir completamente el fondo */
+    background-position: center; /* Centra la imagen en el fondo */
+  }
+
+  h1{
+    text-align: center;
+    margin-top: 50px; /* Aquí se establece el margen superior */
+    font-size: 30px;
+
+  }
+  
+h2{
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 50px; /* Aquí se establece el margen superior */
+    font-size: 30px;
+    color: red;
+}
+
+
+.box-6{ /* esta  es sisisisi la que sirve para el calendario */
+    display: grid;
+    width:80%;   
+    height: 500px;
+    color: rgb(255, 255, 255);
+    font-size: 1.3em;
+    grid-gap: 15px; /*  espaciado de los elementos*/
+    border:3px solid black;
+    cursor: pointer;
+    background-color: rgba(240, 248, 255, 0.349);
+    margin: 50px auto;
+    grid-template-columns: repeat(7, minmax(50px,auto)); /* 4 columnas*/
+    padding: 30px 30px 30px;
+}
+
+/* va pegada con esta la box-6 */
+
+
+.style-box {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    box-shadow: 3px 3px 3px rgb(61, 61, 242);
+    padding-left: 5px;
+    padding-top: 9px;
+  }
+  .mini-box2 {
+    position: relative;
+  }
+  
+  .mini-box2 samp {
+    position: absolute;
+    top: 100%;
+    margin-top: -30px;
+  }
+  
+
+
+.style-box2{
+    background-color:dodgerblue ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 3px 3px 3px rgb(61, 61, 242);
+    
+}
+.text {
+    margin-top: 5px; /* Ajusta este valor según tus necesidades */
+  }
+
+
+  
+.mini-box1{
+    background-color: orange;
+    width: 204px;
+    color: black;
+    font-weight: bold;
+
+}
+
+.mini-box2{
+    background-color: rgb(207, 20, 10);
+
+}
+.mini-box{
+    grid-column-start: 2;
+   
+}
+
+
+/* 
+.mini-box2{
+    background-color: rgb(45, 211, 189);
+    grid-row-start: 2;
+    grid-row-end: 6;
+   
+}
+
+.mini-box3{
+    grid-column-start:4;
+   
+   
+}
+*/

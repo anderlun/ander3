@@ -1,0 +1,95 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+.box-1{
+    display: flex;
+    align-items: flex-end;
+    width: 100%;/*ancho*/
+    height:90vh;
+    justify-content: center;
+   
+}
+body{
+    background-image: url(../images/fondo\ estadistica.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+h2{  
+    margin-top: 50px; /* Aquí se establece el margen superior */
+    text-align: center;
+    font-size: 30px;
+    
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+.box-flex1,.box-flex2,.box-flex3,.box-flex4,.box-flex5,.box-flex6{
+    width: 150px;
+    margin: 20px;
+    color: rgb(9, 9, 9);
+    font-size: 1.6em;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+.box-flex1{
+   height: 200px;
+   background-color: rgba(25, 179, 48, 0.726);
+   border-radius: 4px;
+   box-shadow: 5px 3px 2px  rgb(25, 179, 48);
+   border: 1px solid black;
+    
+}
+.box-flex2{
+    height: 300px;
+    background-color: rgba(192, 26, 26, 0.801);
+    border-radius: 4px;
+    box-shadow: 5px 3px 2px  rgba(192, 26, 26, 0.801);
+    border: 1px solid black;
+
+}
+
+.box-flex3{
+    height: 400px;
+    background-color: rgba(208, 58, 168, 0.788);
+    border-radius: 4px;
+    box-shadow: 5px 3px 2px  rgba(208, 58, 168, 0.879);
+    border: 1px solid black;
+
+}
+
+.box-flex4{
+    height: 500px;
+    background-color: rgba(212, 184, 3, 0.692);
+    border-radius: 4px;
+    box-shadow: 5px 3px 2px  rgb(212, 184, 3);
+    border: 1px solid black;
+
+}
+
+.box-flex5{
+    height: 600px;
+    background-color: rgba(3, 170, 212, 0.678);
+    border-radius: 4px;
+    box-shadow: 5px 3px 2px  rgb(3, 170, 212);
+    border: 1px solid black;
+
+}
+
+.box-flex6{
+    height: 700px;
+    background-color: rgba(182, 126, 21, 0.774);
+    border-radius: 4px;
+    box-shadow: 5px 3px 2px  rgba(182, 126, 21, 0.774);
+    border: 1px solid black;
+
+}
+

@@ -1,0 +1,95 @@
+/*con esto quita los formatos las margenes se quitan, se llama
+seletor universal*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+nav{
+    font-size: 1.4 em;
+    font-weight: 900;
+    font-family: verdana, sans-serif;
+
+}
+
+
+/*significa que todos los elementos ul que esten dentro 
+del nav tendran ese estilo*/
+
+/*todos los menus hijos de nav tienen posicionamiento absoluto*/
+nav ul{/*esto son los menus*/
+    width:100%;
+    background-color: rgb(31, 27, 27);
+    list-style: none;
+    color: white;
+    position: absolute; /*rompemos el flujo*/
+
+}
+.logo2{
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100%; 
+    width: 100%; 
+}
+
+nav ul li{
+    line-height: 70px;
+    width: 270px;   
+    text-align: center;
+    position: relative;
+    
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    padding: 0 25px;
+    display: block;
+    
+    
+}
+nav ul li:hover{
+    background-color: rgb(171, 156, 156);
+}
+
+  /*que ese estilo aplica para el hijo directo de nav osea 
+el primer ul y los demas hijos no afecta, solo el prinmero,
+ le decimos que flote a la izquierda con left, */
+nav > ul >li {
+    float: left;
+
+}
+/* aplica en sedes, menu secundarios y terciarios*/
+nav li li{
+    max-height: 0;
+    overflow: hidden; /* sobre flujo*/
+
+}
+nav li:hover > ul > li{
+    max-height: 500px;
+    overflow: visible;
+    display: block;
+  
+
+}
+nav ul ul ul{
+    left:100%;
+    top:0;
+}
+
+body, html {  
+    height: 100%; /* Establece la altura del cuerpo y el html al 100% */
+}
+
+body{
+    background-image: url(../images/logo2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+
+/* */

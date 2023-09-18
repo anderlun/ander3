@@ -1,0 +1,73 @@
+.contenedor-menu {
+    text-align: center; /* Centra horizontalmente el contenido */
+  
+  }
+  
+.menu {
+    display: inline-block; /* Hace que el menú se muestre en línea */
+  }
+  
+h2{
+    
+    color: white;
+    background-color: black;
+    display:inline-block;
+}
+body{
+    background-color: rgb(53, 37, 202);
+}
+
+.menu li {
+    position: relative;
+  }
+  
+ 
+  
+  .menu li:hover .submenu {
+    display: block;
+  }
+  
+  
+li {
+    float: left;/* Hace que los elementos de la lista estén uno al lado del otro */
+    padding: 8px 10px; 
+    border-right: 3px solid rgba(247, 128, 16, 0.808);
+    cursor: pointer;
+    list-style: none;
+    margin:0;
+    border-radius:0;
+    font-weight: 500;
+    font-size: 0,9em;
+    font-weight: bold;
+    
+}
+.imagen {
+    position: absolute;
+    top: 200px;
+    left: 600px;
+    width: 500px; 
+	height: auto;
+  }
+  
+i{
+    margin-right: 10px;
+}
+
+.vertical{
+    display:flex;
+    flex-direction: column;
+    color: white;
+}
+
+.dos{
+    display: inline-block; /* Hace que los elementos de la lista estén uno al lado del otro */
+    padding: 20px; 
+    border-right: 3px solid black;
+    cursor: pointer;
+    list-style: none;
+    margin: 5px;
+    background-color: gray;
+    border-radius:5px;
+    font-size: 0,9em;
+
+}

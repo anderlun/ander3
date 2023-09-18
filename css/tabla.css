@@ -1,0 +1,75 @@
+th, td{
+    border: solid 1px rgb(12, 11, 11);
+    text-align: center;
+    padding: 12px 16px; 
+    
+   
+}
+body{
+    background-image: url(../images/tabla.jpg);
+    background-size: cover;
+}
+
+table{
+    border-collapse: collapse;
+    display: flex;
+    justify-content: center;
+  
+  
+  
+}
+h2{
+  text-align: center;
+  color: rgb(15, 14, 15);
+  
+}
+
+.fecha{
+  font-weight: bold;
+  font-size: 18px;
+  
+}
+
+tr{
+  background-color: rgb(214, 208, 127);
+}
+
+
+.cuadro {
+    display: inline-block;
+    width: 35px;
+    height: 15px;
+    background-color: rgb(187, 175, 175);
+    border: 1px solid black;
+  
+  }
+  
+  
+  .cuadro2 {
+    display: inline-block;
+    width: 35px;
+    height: 15px;
+    background-color: #165bc2e5;
+    border: 1px solid black;
+  }
+ 
+
+  .precio-numero1{
+    background-color: rgb(187, 175, 175);
+    font-weight: bold;
+  }
+  .precio-numero2{
+    background-color: #165bc2e5;
+    font-weight: bold;
+  }
+
+.reducir{
+    max-width: 100px;
+}
+.reducir2{
+    max-width: 100px;
+
+}
+.reducir3{
+max-width: 100px;
+}

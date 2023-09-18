@@ -1,0 +1,174 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+}
+h2{
+
+}
+
+.box-1{
+    display: flex; /*deja las cajas en fila*/
+    flex-direction: column;/*deja las cajas en columna*/
+    flex-direction: row;/*deja las cajas en fila*/
+    width: 100%;/*ancho*/
+    height:600px;
+    background-color: darkcyan;
+
+}
+
+
+
+.box-2{
+    display: flex;
+    flex-direction: column;/*deja las cajas en columna*/
+    width: 100%;/*ancho*/
+    height:1200px;
+    background-color: darkcyan;
+}
+.box-3{
+    display: flex;
+    flex-direction: row-reverse;/*deja las cajas en reversa/
+    width: 100%;/*ancho*/
+    height:600px;
+    background-color: darkcyan;
+
+}
+
+.box-4{
+    display: flex;
+    flex-direction: row;/*agrupa las cajas, cuando se acabe el row coloca los elementos hacia abajo*/
+    flex-wrap: wrap;/*agrupa las cajas ordenadanamente con el row de arriba*/
+    width: 100%;/*ancho*/
+    height:400px;
+    background-color: darkcyan;
+    overflow: auto;/*era para ocupar todo el contenido del color de fondo osea que esta dentro del contenido*/
+ 
+}
+
+.box-5{
+    display: flex;
+    flex-direction: column; /*agrupa las cajas, cuando se acabe el row coloca los elementos en colmumna desplazamiento a la izquierda*/
+    flex-wrap: wrap;/*agrupa las cajas ordenadanamente con el row de arriba*/
+    width: 1490px;/*ancho*/
+    height:600px;
+    background-color: darkcyan;
+    overflow: auto;
+
+}
+
+.box-6{
+    display: flex;
+    flex-direction: row; /*agrupa las cajas, cuando se acabe el row coloca los elementos en colmumna desplazamiento a la izquierda*/
+    justify-content: space-between; /* espacio entre ellos*/
+    width: 100%;/*ancho*/
+    height:400px;
+    background-color: darkcyan;
+    overflow: auto;
+}
+.box-7{
+    display: flex;
+    flex-direction: row; /*agrupa las cajas, cuando se acabe el row coloca los elementos en colmumna desplazamiento a la izquierda*/    
+    justify-content: space-around;
+    width: 100%;/*ancho*/
+    height:400px;
+    background-color: darkcyan;
+    overflow: auto;
+}
+
+.box-8{
+    display: flex;
+    flex-direction: row; /*agrupa las cajas, cuando se acabe el row coloca los elementos en colmumna desplazamiento a la izquierda*/    
+    justify-content: space-evenly;
+    width: 100%;/*ancho*/
+    height:400px;
+    background-color: darkcyan;
+    overflow: auto;
+}
+
+.box-9{
+    display: flex;
+    flex-direction: row; /*agrupa las cajas, cuando se acabe el row coloca los elementos en colmumna desplazamiento a la izquierda*/    
+    justify-content: flex-start;
+    width: 100%;/*ancho*/
+    height:400px;
+    background-color: darkcyan;
+    overflow: auto;
+}
+
+.box-10{
+    display: flex;
+    flex-direction: row; /*agrupa las cajas, cuando se acabe el row coloca los elementos en colmumna desplazamiento a la izquierda*/    
+    justify-content: flex-end;
+    width: 100%;/*ancho*/
+    height:400px;
+    background-color: darkcyan;
+    overflow: auto;
+}
+
+.box-11{
+    display: flex;
+    flex-direction: row; /*agrupa las cajas, cuando se acabe el row coloca los elementos en colmumna desplazamiento a la izquierda*/    
+    justify-content:center;
+    width: 100%;/*ancho*/
+    height:400px;
+    background-color: darkcyan;
+    overflow: auto;
+}
+.box-12{
+    display: flex;
+    justify-content: center;
+    flex-direction: column; /*agrupa las cajas,  en columna*/
+    width: 100%;/*ancho*/
+    height:900px;
+    background-color: darkcyan;
+    overflow: auto;
+}
+
+.box-13{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;/*ancho*/
+    height:600px;
+    background-color: darkcyan;
+    overflow: auto;
+}
+
+.box-14{
+    display: flex;
+    justify-content:row;
+    align-items: flex-end;
+    width: 100%;/*ancho*/
+    height:600px;
+    background-color: darkcyan;
+    overflow: auto;
+}
+.box-15{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;/*ancho*/
+    height:600px;
+    background-color: darkcyan;
+    overflow: auto;
+}
+.box-flex{
+    width: 350px;
+    height: 350px;
+    background-color: rgb(212, 59, 3);
+    margin: 10px;
+    color: white;
+    font-size: 1.6em;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+

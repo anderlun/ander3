@@ -1,0 +1,61 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.img-principal{
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+.porshe-gt4-visible{
+  position: fixed;
+  width:80%; /* con este codigo reduce un poco la imagen */
+  margin-left: 10%;
+  left: 0;
+  transition:all 2s;
+}
+
+.porshe-gt4-hidden{
+    position: fixed;
+    width:80%; /* con este codigo reduce un poco la imagen */
+    margin-left: 10%;
+    left: -100%;
+    transition:all 1500ms;
+  }
+.spider-visible{
+    position:fixed;
+    width:80%;
+    left:0;
+    margin-left: 10%;
+    transition: all 1500ms;
+}
+.spider-hidden{
+    position:fixed;
+    width:80%;
+    left: 100%;
+    margin-left: 10%;
+    transition: all 1500ms;
+}
+.left-arrow{
+    position: absolute;
+    top:380px;
+    left:10px;
+    cursor: pointer;
+
+}
+.right-arrow{
+    position: absolute;
+    right: 0;
+    top:380px;
+    cursor: pointer;
+}
+
+/*.porshe:hover{
+    position: fixed;
+    width:80%;  con este codigo reduce un poco la imagen 
+    margin-left: 10%;
+    left: -100%;
+} */
+
+
