@@ -42,3 +42,19 @@ numSumar.addEventListener("click", function() {
     let auxSubtotalStr = new Intl.NumberFormat('de-De').format(auxSubtotal);
     document.getElementById("valorSubtotal").innerHTML= auxSubtotalStr;
 })
+
+let btnEliminar = document.getElementById("btnEliminar");
+
+btnEliminar.addEventListener("click", function() {
+    // Restablece el número de productos a 0
+    document.getElementById("numView").innerText = "0";
+
+    // Restablece el mensaje de cantidad de productos
+    document.getElementById("cantProductos").innerText = "0 Productos";
+
+    // Restablece el subtotal a 0
+    document.getElementById("valorSubtotal").innerText = "0";
+
+    // También puedes agregar cualquier otra lógica que desees para reiniciar otras variables o estados aquí.
+
+});

@@ -1,0 +1,31 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 90px;
+    display: grid;
+    grid-template: "logo input-busqueda hamburguer-menu  carrito"/
+                    80px    1fr          80px             80px;                 
+}
+
+.logo{
+    grid-area: logo;
+    background-color: red;
+}
+
+.input-busqueda{
+    grid-area:input-busqueda;
+    background-color: aquamarine;
+}
+.hamburguer-menu{
+    grid-area:hamburguer-menu;
+    background-color: blue;
+}
+
+.carrito{
+    grid-area: carrito;
+    background-color: yellow;
+}

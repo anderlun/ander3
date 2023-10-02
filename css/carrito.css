@@ -142,3 +142,24 @@
     font-weight: 400;
     src: url('../fonts/poppins-v20-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
   }
+
+  /* Agrega estilos para el botón Eliminar */
+.btn-eliminar {
+    grid-area: btn-eliminar;
+    text-align: center;
+}
+
+#btnEliminar {
+    background-color: #ff5959; /* Color de fondo */
+    color: white; /* Color de texto */
+    padding: 10px 20px; /* Espacio interno del botón */
+    font-size: 1.2em; /* Tamaño de fuente */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar el ratón */
+    transition: background-color 0.3s ease; /* Transición de color suave */
+}
+
+#btnEliminar:hover {
+    background-color: #ff0000; /* Cambia de color al pasar el ratón */
+}
