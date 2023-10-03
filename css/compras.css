@@ -1,31 +1,51 @@
-*{
-    margin:0;
-    padding:0;
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
-
-header{
-    height: 90px;
+header {
+    height: 70px;
+    background-color: rgb(255,197,0);
     display: grid;
-    grid-template: "logo input-busqueda hamburguer-menu  carrito"/
-                    80px    1fr          80px             80px;                 
+    grid-template: "logo box-input-busqueda hamburguer-menu carrito" /
+                    70px 1fr                50px            50px;
 }
-
-.logo{
+.logo {
     grid-area: logo;
-    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding-left: 30px; */
 }
-
-.input-busqueda{
-    grid-area:input-busqueda;
-    background-color: aquamarine;
+.img-logo {
+    width: 95%;
 }
-.hamburguer-menu{
-    grid-area:hamburguer-menu;
-    background-color: blue;
+.box-input-busqueda {
+    grid-area: box-input-busqueda;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
-.carrito{
+.input-busqueda {
+    border-radius: 20px;
+    width: 90%;
+    height: 40px;
+    outline: none;
+    border: none;
+    padding: 0 30px;
+    font-size: 1.3em;
+}
+.hamburguer-menu {
+    grid-area: hamburguer-menu;
+}
+.carrito {
     grid-area: carrito;
-    background-color: yellow;
+}
+.icon-header {
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(48,48,48);
+    font-size: 1.3em;
 }

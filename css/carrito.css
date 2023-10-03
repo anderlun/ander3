@@ -12,15 +12,20 @@
     grid-area: subtotal;
 }
 .subtotal{
+    background-color: black;
+    color: aliceblue;
 
     font-size: 1.6em;
 
 }
-
+.cambio{
+    color: black;
+}
 #subTotal{  
     font-weight: 600;
 }
 .btn-pago-productos{
+    color: black;
     grid-area: btn-pago-productos;
     border-radius: 3px;
     background-color: yellow;
@@ -39,6 +44,12 @@
   
    
 }
+label{
+    color: white;
+}
+body{
+    background-image: url(../images/java.png);
+}
 
 .img-producto{
     width: 100%;
@@ -52,6 +63,7 @@
 }
 
 .texto-info-producto{
+    color: white;
     margin-bottom: 25px;
 
 }
@@ -112,10 +124,11 @@
     font-size: 2.5em;
     font-weight: 500;
 }
-@media only screen and ( min-width: 430px) and (max-width: 834px){
-    .main-box{
+@media only screen and (min-width: 430px) and (max-width: 834px) {
+    .main-box {
         width: 100%;
         height: 800px;
+        background-image: url(../images/java.png);
         background-color: #e1ecd6;
         display: grid;
         grid-template:"subtotal              subtotal" 50px
@@ -124,14 +137,9 @@
                      "btn-cantidad         btn-eliminar" 70px     
                      "empty-left            btn-save-later" 70px/
                       6fr                       8fr;
+        background-size: cover; /* Ajustar la imagen de fondo para que cubra todo el espacio */
+        background-repeat: no-repeat; /* Evitar que la imagen de fondo se repita */
     }
-  /*  .box-img-producto{
-        grid-area: box-img-producto;
-        width:100%;
-        height: 350px;
-        background-color: aqua;
-    }
-    */
 };
     
 /* poppins-regular - latin */
