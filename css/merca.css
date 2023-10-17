@@ -83,7 +83,7 @@ width: 100%;
 .marca{
     margin-top: 15px;
     display: block;
-    font-weight: bold; /* Para hacerlo en negrita */
+    font-weight: bold; /* Para hacerlo en ngegrita */
     font-size: 1.1em;  
     margin-bottom: 10px; /* Ajusta este valor según tu preferencia */
 }
