@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: poppins,sans-serif;
+
 }
 header {
     height: 70px;
@@ -53,19 +55,60 @@ header {
     display: grid;
 }
 .box-producto {
+
     display: grid;
-    grid-template: "box-img box-info" /
-                    3fr     4fr;
+    grid-template: "box-img box-info" 
+                    "linea-div  linea-div"/
+                     3fr     4fr;
     height: 200px;
 }
 .box-img {
     grid-area: box-img;
+    position: relative;
 }
 .box-info {
     grid-area: box-info;
+}
+
+.linea-div{
+grid-area: linea-div;
+height: 1px;
+width: 100%;
 }
 .img-auto {
     padding: 20px;
     width: 100%;
 
+}
+.marca{
+    margin-top: 15px;
+    display: block;
+    font-weight: bold; /* Para hacerlo en negrita */
+    font-size: 1.1em;  
+    margin-bottom: 10px; /* Ajusta este valor según tu preferencia */
+}
+
+.precio{
+    display: block;
+    font-weight: bold; /* Para hacerlo en negrita */
+    font-size: 1.5em;  
+    margin-bottom: 10px; /* Ajusta este valor según tu preferencia */
+}
+.box-corazon{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 18px;
+    background-color: rgba(210, 223, 235, 0.713);
+    position: absolute  ;
+    top:0px;
+    right:20px; 
+   
+}
+.icon-corazon{
+    color: #4fbfef;
+
+    font-size: 1.1em;
 }
