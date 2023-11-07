@@ -57,10 +57,10 @@ header {
 .box-producto {
 
     display: grid;
-    grid-template: "box-img box-info" 
+    grid-template: "box-img box-info" auto
                     "linea-div  linea-div"/
                      3fr     4fr;
-    height: 200px;
+   /* height: 200px;*/
 }
 .box-img {
     grid-area: box-img;
@@ -111,4 +111,35 @@ width: 100%;
     color: #4fbfef;
 
     font-size: 1.1em;
+}
+
+@media only screen and (min-width:420px){
+    .marca{
+        margin-top: 15px;
+        display: block;
+        font-weight: bold; /* Para hacerlo en ngegrita */
+        font-size: 1.1em;  
+        margin-bottom: 10px; /* Ajusta este valor según tu preferencia */
+    }
+    
+    .precio{
+        display: block;
+        font-weight: bold; /* Para hacerlo en negrita */
+        font-size: 1.5em;  
+        margin-bottom: 10px; /* Ajusta este valor según tu preferencia */
+    }
+}
+
+@media only screen and (min-width:550px){
+    .box-producto{
+        font-size: 1.4em;
+    }
+    .precio{
+        margin-top: 20px;
+    }
+}
+@media only screen and (min-width:900px){
+    .main-content{
+      background-color: red;
+    }
 }

@@ -18,12 +18,13 @@ class Automovil {
     }
 }
 
-let auto1 = new Automovil("Toyota", "TXL", 15000000, "images/toyota.jpg", "2021", 28, "pitalito - huila");
+let auto1 = new Automovil("Toyotas", "TXL", 15000000, "images/toyota.jpg", "2021", 28, "pitalito - huila");
 let auto2 = new Automovil("Mustang", "PRO", 250000000, "images/mustang.png", "2023", 0, "porvenir - huila");
 let auto3 = new Automovil("CHEVROLET ", "CAMARO", 300000000, "images/camaro.png", "2023", 0, "exito - huila");
+let auto4 = new Automovil("ROLL ", "ROYCE", 1300000000, "images/roll-rois.jpg", "2024", 0, "Popular - huila");
 
 let autos = [
-    auto1, auto2, auto3
+    auto1, auto2, auto3,auto4
 ]
 
 
@@ -45,11 +46,6 @@ function mostrarProducto(terminoBusqueda) {
             //alert(auto1.marca+ " "+auto1.modelo);
 
 
-
-
-
-
-
             let boxproducto = document.createElement("div");
             mainContent.appendChild(boxproducto);
             boxproducto.setAttribute("class", "box-producto");
@@ -63,7 +59,6 @@ function mostrarProducto(terminoBusqueda) {
             boximg.appendChild(imgAuto);
             imgAuto.setAttribute("src", auto.imagen);
             imgAuto.setAttribute("class", "img-auto");
-
 
 
             //caja información
@@ -121,3 +116,10 @@ function mostrarProducto(terminoBusqueda) {
 
 
 };
+
+//FILTROS//
+cargarFiltro();
+
+function cargarFiltro(){
+
+}
