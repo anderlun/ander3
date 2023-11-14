@@ -20,7 +20,7 @@ class Automovil {
 
 let auto1 = new Automovil("Toyotas", "TXL", 15000000, "images/toyota.jpg", "2021", 25, "pitalito - huila");
 let auto2 = new Automovil("Mustang", "PRO", 250000000, "images/mustang.png", "2023", 0, "porvenir - huila");
-let auto3 = new Automovil("CHEVROLET ", "CAMARO", 300000000, "images/camaro.png", "2023", 0, "exito - huila");
+let auto3 = new Automovil("CHEVROLET ", "CAMARO", 300000000, "images/camaro2.png", "2023", 0, "exito - huila");
 let auto4 = new Automovil("ROLL ", "ROYCE", 1300000000, "images/roll-rois.jpg", "2024", 0, "Popular - huila");
 
 let autos = [
