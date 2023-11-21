@@ -3,31 +3,33 @@
     padding: 0;
     box-sizing: border-box;
     font-family: poppins,sans-serif;
-
 }
+
 header {
     height: 70px;
     background-color: rgb(244, 242, 78);
     display: grid;
-    grid-template: "logo box-input-busqueda hamburguer-menu carrito" /
-                    70px 1fr                40px            40px;
+    grid-template: "logo box-input-busqueda hamburguer-menu carrito" / 70px 1fr 40px 40px;
 }
+
 .logo {
     grid-area: logo;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* padding-left: 30px; */
 }
+
 .img-logo {
     width: 100%;
 }
+
 .box-input-busqueda {
     grid-area: box-input-busqueda;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .input-busqueda {
     border-radius: 15px;
     width: 90%;
@@ -37,12 +39,15 @@ header {
     padding: 0 30px;
     font-size: 1.3em;
 }
+
 .hamburguer-menu {
     grid-area: hamburguer-menu;
 }
+
 .carrito {
     grid-area: carrito;
 }
+
 .icon-header {
     height: 70px;
     display: flex;
@@ -51,48 +56,49 @@ header {
     color: rgb(48,48,48);
     font-size: 1.3em;
 }
+
 .main-content {
     display: grid;
 }
-.box-producto {
 
+.box-producto {
     display: grid;
-    grid-template: "box-img box-info" auto
-                    "linea-div  linea-div"/
-                     3fr     4fr;
-   /* height: 200px;*/
+    grid-template: "box-img box-info" auto "linea-div  linea-div"/ 3fr 4fr;
 }
+
 .box-img {
     grid-area: box-img;
     position: relative;
 }
+
 .box-info {
     grid-area: box-info;
 }
 
-.linea-div{
-grid-area: linea-div;
-height: 1px;
-width: 100%;
+.linea-div {
+    grid-area: linea-div;
+    height: 1px;
+    width: 100%;
 }
+
 .img-auto {
     padding: 20px;
     width: 100%;
-
 }
-.marca{
+
+.marca {
     margin-top: 15px;
     display: block;
-    font-weight: bold; /* Para hacerlo en ngegrita */
+    font-weight: bold;
     font-size: 1.1em;  
-    margin-bottom: 10px; /* Ajusta este valor según tu preferencia */
+    margin-bottom: 10px;
 }
 
-.precio{
+.precio {
     display: block;
-    font-weight: bold; /* Para hacerlo en negrita */
+    font-weight: bold;
     font-size: 1.5em;  
-    margin-bottom: 10px; /* Ajusta este valor según tu preferencia */
+    margin-bottom: 10px;
 }
 
 .toggle-container {
@@ -129,7 +135,8 @@ width: 100%;
 .toggle-input:checked + .toggle-label:before {
     transform: translateX(20px);
 }
-.box-corazon{
+
+.box-corazon {
     width: 30px;
     height: 30px;
     display: flex;
@@ -137,48 +144,65 @@ width: 100%;
     align-items: center;
     border-radius: 18px;
     background-color: rgba(210, 223, 235, 0.713);
-    position: absolute  ;
-    top:0px;
-    right:20px; 
-   
+    position: absolute;
+    top: 0px;
+    right: 20px; 
 }
-.icon-corazon{
-    color: #4fbfef;
 
+.icon-corazon {
+    color: #4fbfef;
     font-size: 1.1em;
 }
 
-@media only screen and (min-width:420px){
-    .marca{
+@media only screen and (min-width:420px) {
+    .marca {
         margin-top: 15px;
         display: block;
-        font-weight: bold; /* Para hacerlo en ngegrita */
+        font-weight: bold;
         font-size: 1.1em;  
-        margin-bottom: 10px; /* Ajusta este valor según tu preferencia */
+        margin-bottom: 10px;
     }
-    
-    .precio{
+
+    .precio {
         display: block;
-        font-weight: bold; /* Para hacerlo en negrita */
+        font-weight: bold;
         font-size: 1.5em;  
-        margin-bottom: 10px; /* Ajusta este valor según tu preferencia */
+        margin-bottom: 10px;
     }
 }
 
-@media only screen and (min-width:550px){
-    .box-producto{
+@media only screen and (min-width:550px) {
+    .box-producto {
         font-size: 1.4em;
     }
-    .precio{
+
+    .precio {
         margin-top: 20px;
     }
 }
-@media only screen and (min-width:900px){
-    .main-content{
+
+@media only screen and (min-width:900px) {
+    .main-content {
     
     }
 }
 
-.box-toggle{
-    
+.icon-estrella {
+    color: #656060;
+    font-size: 1.2em;
+    margin-right: 2px;
+}
+
+.calificacion-container {
+    display: flex;
+    margin-top: 10px;
+}
+
+.calificacion-container i {
+    transition: color 0.3s ease-in-out;
+}
+
+.calificacion-container i.activa,
+.calificacion-container i.media {
+    color: rgb(227, 9, 9);
 }
