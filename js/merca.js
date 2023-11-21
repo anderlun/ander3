@@ -117,6 +117,20 @@ function mostrarProducto(terminoBusqueda) {
 
 };
 
+window.addEventListener("load", function () {
+    mostrarProducto('');
+
+    inputBusqueda.addEventListener('input', function () {
+        mostrarProducto(inputBusqueda.value);
+    });
+
+    // Agrega el evento para el cambio en el toggle
+    let toggle = document.getElementById("toggle");
+    toggle.addEventListener("change", function () {
+        // Agrega aquí el código relacionado con el cambio en el toggle si es necesario
+    });
+});
+
 //FILTROS//
 cargarFiltro();
 

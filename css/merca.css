@@ -94,6 +94,41 @@ width: 100%;
     font-size: 1.5em;  
     margin-bottom: 10px; /* Ajusta este valor según tu preferencia */
 }
+
+.toggle-container {
+    position: relative;
+    margin-top: 10px;
+}
+
+.toggle-input {
+    display: none;
+}
+
+.toggle-label {
+    display: block;
+    width: 50px;
+    height: 30px;
+    background-color: rgb(116, 114, 114);
+    border-radius: 15px;
+    position: relative;
+    cursor: pointer;
+}
+
+.toggle-label:before {
+    content: '';
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: #fff;
+    top: 3px;
+    left: 3px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.toggle-input:checked + .toggle-label:before {
+    transform: translateX(20px);
+}
 .box-corazon{
     width: 30px;
     height: 30px;
@@ -142,4 +177,8 @@ width: 100%;
     .main-content{
     
     }
+}
+
+.box-toggle{
+    
 }
